@@ -1,5 +1,9 @@
-import React, { useState } from "react";
+import { LOGO, TENDICHVU, NHOMDICHVU, DESCRIPTION } from "./models/enum"
+
+import React, { useState } from "react" 
 import "./App.css";
+
+
 
 function App() {
   // Properties
@@ -7,11 +11,19 @@ function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
 
-  
+  const NhomDichVuList = {
+    text: "Hãy lựa chọn nhóm dịch vụ",
+    option: [
+      { id: 1, text: NHOMDICHVU.NHOM1 },
+      { id: 2, text: NHOMDICHVU.NHOM2 },
+      { id: 3, text: NHOMDICHVU.NHOM3 },
+      { id: 4, text: NHOMDICHVU.NHOM4 }
+    ]
+  }
 
   const questions = [
     {
-      text: "What is the capital of America?",
+      text: "Hãy lựa chọn nhóm dịch",
       options: [
         { id: 0, text: "New York City", isCorrect: false },
         { id: 1, text: "Boston", isCorrect: false },

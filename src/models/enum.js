@@ -16,6 +16,28 @@ import LOGOVNPAY from "../LOGO/14.png"
 import LOGOVIETTELMONEY from "../LOGO/15.png"
 import LOGOZALOPAY from "../LOGO/16.png"
 
+import QRCONGBOCA from "../QR/BCAQR.png"
+import QRQUOCGIA from "../QR/QHQR.png"
+import QRVNeIDCH from "../QR/VNeIDCHQR.png"
+import QRVNeIDIOS from "../QR/VNeIDIOSQR.png"
+import QRVSSIDCH from "../QR/VSSIDCHQR.png"
+import QRVSSIDIOS from "../QR/VSSIDIOSQR.png"
+import QRSV360 from "../QR/SV360QR.png"
+import QRTNVNCH from "../QR/TNVNCHQR.png"
+import QRTNVNIOS from "../QR/TNVNIOSQR.png"
+import QRTuoiTreThanhPhoBac from "../QR/TTTPBQR.png"
+import QRYOUTH from "../QR/YOUTHQR.png"
+import QRBUSMAPCH from "../QR/BUSMAPCHQR.png"
+import QRBUSMAPIOS from "../QR/BUSMAPIOSQR.png"
+import QRCHUYENDOISO from "../QR/CHUYENDOISOQR.png"
+import QRSOSUCKHOEDIENTUCH from "../QR/SOSUCKHOEDIENTUCHQR.png"
+import QRSOSUCKHOEDIENTUIOS from "../QR/SOSUCKHOEDIENTUIOSQR.png"
+import QRVNEXPRESS from "../QR/VNEXPRESSQR.png"
+import QRMOMO from "../QR/MOMOQR.png"
+import QRVNPAY from "../QR/VNPAYQR.png"
+import QRVIETTELMONEY from "../QR/VIETTELMONEYQR.png"
+import QRZALOPAY from "../QR/ZALOPAYQR.png"
+
 const LOGO = {
     LOGOCONGBOCA: LOGOCONGBOCA,
     LOGOQUOCGIA: LOGOQUOCGIA,
